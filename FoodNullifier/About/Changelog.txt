@@ -1,3 +1,12 @@
+Version 1.0.5 (June 4th 2020)
+
+- No longer requires Royalty DLC.
+	- Requires 'Bionics' research.
+	- I disabled every other mod I have installed and enabled the 'Simulate not owning Royalty' option. When the game restarted, I didn't get any errors related to this mod, so that tells me it no longer uses Royalty content. I also started a new colony just to be even surer; again, no errors were reported.
+- Food nullifier now has a market value of 5,000 silver.
+- Food nullifier now has a mass of 3.
+- Food nullifier now has a maximum of 100HP.
+
 Version 1.0.1 (June 4th 2020)
 
 - Initial Release.

@@ -25,7 +25,7 @@
     </comps>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
     <description>This artificial stomach is very expensive to create, but never requires any sustenance, meaning that the user never has to eat anything ever again.\n\nDespite years of intensive study, the science behind how this item actually works still isn't fully understood.</description>
@@ -40,12 +40,17 @@
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+      <researchPrerequisite>Bionics</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>12</Crafting>
 			<Intellectual>12</Intellectual>
 		</skillRequirements>
     </recipeMaker>
+	<statBases>
+		<MarketValue>5000</MarketValue>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Mass>3</Mass>
+	</statBases>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
