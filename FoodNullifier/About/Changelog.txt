@@ -1,3 +1,9 @@
+Version 1.0.8 (June 5th 2020)
+
+* Food nullifier now requires a Medical skill of at least 15 to install.
+* Food nullifier now requires a Crafting skill of at least 15 to make (was 12).
+* Food nullifier now requires an Intellectual skill of at least 15 to make (was 12).
+
 Version 1.0.5 (June 4th 2020)
 
 - No longer requires Royalty DLC.

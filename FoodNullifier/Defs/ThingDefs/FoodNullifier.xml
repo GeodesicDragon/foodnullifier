@@ -9,7 +9,7 @@
     <spawnThingOnRemoved>FoodNullifier</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.5</partEfficiency>
+      <partEfficiency>1</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
@@ -42,8 +42,8 @@
     <recipeMaker>
       <researchPrerequisite>Bionics</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>12</Crafting>
-			<Intellectual>12</Intellectual>
+			<Crafting>15</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
     </recipeMaker>
 	<statBases>
@@ -78,6 +78,8 @@
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FoodNullifier</addsHediff>
-  </RecipeDef>
-  
-  </Defs>
+	<skillRequirements>
+		<Medicine>15</Medicine>
+	</skillRequirements>
+  </RecipeDef>  
+</Defs>
