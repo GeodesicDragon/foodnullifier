@@ -5,13 +5,8 @@
 	<packageId>geodesicdragon.foodnullifier</packageId>
 	<url>https://discord.gg/BGKnpza</url>
 	<supportedVersions>
+		<li>1.0</li>
 		<li>1.1</li>
 	</supportedVersions>
-	<modDependencies>
-		<li>
-			<packageId>Ludeon.RimWorld.Royalty</packageId>
-			<displayName>Royalty</displayName>
-		</li>
-	</modDependencies>
 	<description><![CDATA[Adds a replacement stomach which is <i>extremely</i> expensive and requires great skill to make, but completely removes a pawn's need to eat.]]></description>
 </ModMetaData>
