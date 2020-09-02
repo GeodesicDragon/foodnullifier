@@ -9,43 +9,45 @@
     <spawnThingOnRemoved>FoodNullifier</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
-      <partEfficiency>1.5</partEfficiency>
+      <partEfficiency>1</partEfficiency>
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
       <li>
-        <hungerRateFactorOffset>-1</hungerRateFactorOffset>
+        <hungerRateFactorOffset>-1000</hungerRateFactorOffset>
       </li>
     </stages>
     <comps>
       <li Class="HediffCompProperties_ReactOnDamage">
         <damageDefIncoming>EMP</damageDefIncoming>
-        <vomit>true</vomit>
+        <createHediff>FoodNullifierMalfunction</createHediff>
       </li>
     </comps>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartBionicBase">
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
-    <description>This artificial stomach is very expensive to create, but never requires any sustenance, meaning that the user never has to eat anything ever again.\n\nDespite years of intensive study, the science behind how this item actually works still isn't fully understood.</description>
+    <description>This artificial stomach is similar to a nuclear stomach in terms of functionality, but it completely eliminates hunger (rather than slowing it) and has no risk of causing cancer in the user.</description>
     <descriptionHyperlinks><RecipeDef>InstallFoodNullifier</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
-      <Steel>300</Steel>
-	  <Plasteel>300</Plasteel>
-	  <MealSimple>100</MealSimple>
-	  <MealFine>100</MealFine>
-	  <MealLavish>100</MealLavish>
+      <Steel>500</Steel>
+	  <Plasteel>500</Plasteel>
       <ComponentSpacer>10</ComponentSpacer>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>ArtificialMetabolism</researchPrerequisite>
+      <researchPrerequisite>Bionics</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>12</Crafting>
-			<Intellectual>12</Intellectual>
+			<Crafting>15</Crafting>
+			<Intellectual>15</Intellectual>
 		</skillRequirements>
     </recipeMaker>
+	<statBases>
+		<MarketValue>10000</MarketValue>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Mass>3</Mass>
+	</statBases>
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
@@ -73,6 +75,33 @@
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
     <addsHediff>FoodNullifier</addsHediff>
-  </RecipeDef>
+	<skillRequirements>
+		<Medicine>12</Medicine>
+	</skillRequirements>
+  </RecipeDef> 
   
-  </Defs>
+   <HediffDef>
+    <defName>FoodNullifierMalfunction</defName>
+    <label>food nullifier malfunction</label>
+    <labelNoun>malfunctioning food nullifier</labelNoun>
+    <description>The food nullifier is reacting badly to the EMP; this causes pain in the user and slows them down.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>3500~5000</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painOffset>0.3</painOffset>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef> 
+ 
+</Defs>
