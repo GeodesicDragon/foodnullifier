@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef Abstract="True" Name="FoodNullifierResearchDef">
+    <baseCost>7200</baseCost>
+    <techLevel>Industrial</techLevel>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <techprintCount>1</techprintCount>
+    <techprintCommonality>0.1</techprintCommonality>
+    <techprintMarketValue>4500</techprintMarketValue>
+    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+  </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="FoodNullifierResearchDef">
+		<defName>FoodNullifierResearch</defName>
+		<label>food nullifier</label>
+		<description>A replacement stomach that completely elimiates an individual's need to eat. Vulnerable to EMP damage.</description>
+		<prerequisites>
+			<li>Bionics</li>
+		</prerequisites>
+		<!--<tab>PlayerMortarShield</tab>-->
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+</Defs>

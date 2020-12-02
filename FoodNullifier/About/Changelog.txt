@@ -1,3 +1,22 @@
+Version 1.2.20 (November 13th 2020)
+
+* Learning how to craft food nullifiers now requires you to research them first.
+	* The 'Food nullifier tech' requires Bionic replacements, one techprint, a hi-tech research bench and a multi-analyser.
+	* It is classed as Spacer tech with a base cost of 7200.
+	* Techprints have a default market value of 4500 silver.
+* Reduced the steel cost of a food nullifier to 300 (was 500).
+* Reduced the plasteel cost of a food nullifier to 300 (was 500).
+* Reduced the advanced component cost of a food nullifier to 5 (was 10).
+* A bionic stomach is now required to craft a food nullifier.
+	* Author's Note: Since the nullifier is essentially a replacement stomach, it makes sense to require a bionic one to craft it.
+* Increased slowdown caused by EMP damage to 75% (was 50%).
+* EMP damage now lasts anywhere between 3000-6000 ticks (was 3500-5000).
+
+Version 1.1.14 (September 10th 2020)
+
+* Food nullifiers can now be installed in animals.
+	* This only applies to animals in the base game; modded animals are not covered.
+
 Version 1.0.14 (August 21st 2020)
 
 * Mod is now compatible with the RimWorld 1.2 patch.

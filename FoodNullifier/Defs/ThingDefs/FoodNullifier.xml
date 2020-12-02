@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+<!--Hediff-->
   <HediffDef ParentName="AddedBodyPartBase">
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
@@ -24,6 +26,8 @@
       </li>
     </comps>
   </HediffDef>
+  
+<!--Food Nullifier Item-->
 
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>FoodNullifier</defName>
@@ -32,12 +36,13 @@
     <descriptionHyperlinks><RecipeDef>InstallFoodNullifier</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
-      <Steel>500</Steel>
-	  <Plasteel>500</Plasteel>
-      <ComponentSpacer>10</ComponentSpacer>
+      <Steel>300</Steel>
+	  <Plasteel>300</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <BionicStomach>1</BionicStomach>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Bionics</researchPrerequisite>
+      <researchPrerequisite>FoodNullifierResearch</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>15</Crafting>
 			<Intellectual>15</Intellectual>
@@ -49,6 +54,8 @@
 		<Mass>3</Mass>
 	</statBases>
   </ThingDef>
+  
+<!--Surgery Colonist-->
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallFoodNullifier</defName>
@@ -56,21 +63,16 @@
     <description>Install a food nullifier.</description>
     <descriptionHyperlinks><ThingDef>FoodNullifier</ThingDef></descriptionHyperlinks>
     <jobString>Installing food nullifier.</jobString>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>FoodNullifier</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>FoodNullifier</li>
-      </thingDefs>
-    </fixedIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FoodNullifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
     <appliedOnFixedBodyParts>
       <li>Stomach</li>
     </appliedOnFixedBodyParts>
@@ -78,8 +80,106 @@
 	<skillRequirements>
 		<Medicine>12</Medicine>
 	</skillRequirements>
-  </RecipeDef> 
+  </RecipeDef>
   
+<!--Surgery Animal-->
+
+<RecipeDef Abstract="True" Name="FoodNullifierAnimalSurgery">
+	<effectWorking>Surgery</effectWorking>
+	<soundWorking>Recipe_Surgery</soundWorking>
+	<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+	<workSkill>Medicine</workSkill>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallAnimalFoodNullifier</defName>
+		<label>install food nullifier</label>
+		<description>Install a food nullifier.</description>
+		<descriptionHyperlinks><ThingDef>FoodNullifier</ThingDef></descriptionHyperlinks>
+		<jobString>Installing food nullifier.</jobString>
+		<skillRequirements>
+			<Medicine>12</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FoodNullifier</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>			
+		</appliedOnFixedBodyParts>
+		<addsHediff>FoodNullifier</addsHediff>
+		<recipeUsers>
+			<li>Alpaca</li>
+			<li>Bison</li>
+			<li>Boomalope</li>
+			<li>Capybara</li>
+			<li>Caribou</li>
+			<li>Cassowary</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cow</li>
+			<li>Deer</li>
+			<li>Donkey</li>
+			<li>Dromedary</li>
+			<li>Duck</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Emu</li>
+			<li>Gazelle</li>
+			<li>Goat</li>
+			<li>Goose</li>
+			<li>GuineaPig</li>
+			<li>Hare</li>
+			<li>Horse</li>
+			<li>Ibex</li>
+			<li>Megasloth</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Rhinoceros</li>
+			<li>Sheep</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Turkey</li>
+			<li>Yak</li>
+			<li>Alphabeaver</li>
+			<li>Thrumbo</li>
+			<li>Boomrat</li>
+			<li>Bear_Grizzly</li>
+			<li>Husky</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Megascarab</li>
+			<li>Megaspider</li>
+			<li>Monkey</li>
+			<li>Pig</li>
+			<li>Bear_Polar</li>
+			<li>Spelopede</li>
+			<li>Raccoon</li>
+			<li>Rat</li>
+			<li>Tortoise</li>
+			<li>WildBoar</li>
+			<li>YorkshireTerrier</li>
+			<li>Fox_Arctic</li>
+			<li>Wolf_Arctic</li>
+			<li>Cat</li>
+			<li>Cobra</li>
+			<li>Cougar</li>
+			<li>Fox_Fennec</li>
+			<li>Lynx</li>
+			<li>Panther</li>
+			<li>Fox_Red</li>
+			<li>Wolf_Timber</li>
+			<li>Warg</li>
+		</recipeUsers>        
+	</RecipeDef>
+  
+<!--Malfunction-->
    <HediffDef>
     <defName>FoodNullifierMalfunction</defName>
     <label>food nullifier malfunction</label>
@@ -88,7 +188,7 @@
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
       <li Class="HediffCompProperties_Disappears">
-        <disappearsAfterTicks>3500~5000</disappearsAfterTicks>
+        <disappearsAfterTicks>3000~6000</disappearsAfterTicks>
       </li>
     </comps>
     <stages>
@@ -97,7 +197,7 @@
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>-0.5</offset>
+            <offset>-0.75</offset>
           </li>
         </capMods>
       </li>
