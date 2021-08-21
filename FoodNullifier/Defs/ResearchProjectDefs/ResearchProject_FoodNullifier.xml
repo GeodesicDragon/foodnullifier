@@ -11,7 +11,11 @@
     <techprintCount>1</techprintCount>
     <techprintCommonality>0.1</techprintCommonality>
     <techprintMarketValue>4500</techprintMarketValue>
-    <heldByFactionCategoryTags><li>Empire</li></heldByFactionCategoryTags>
+    <heldByFactionCategoryTags>
+		<li>OutlanderCivil</li>
+		<li>OutlanderRough</li>
+		<li>Empire</li>
+	</heldByFactionCategoryTags>
   </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="FoodNullifierResearchDef">

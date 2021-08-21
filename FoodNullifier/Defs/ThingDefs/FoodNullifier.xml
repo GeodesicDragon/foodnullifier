@@ -31,7 +31,7 @@
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
 	  <Plasteel>90</Plasteel>
-	  <Gold>50</Gold>
+	  <Gold>5</Gold>
       <ComponentSpacer>2</ComponentSpacer>
       <BionicStomach>1</BionicStomach>
     </costList>

@@ -1,3 +1,8 @@
+Version 1.2.29 (August 21st 2021)
+
+* Techprints should now be available from outlander factions (both civil and rough).
+* Making a nullifier now requires 50 gold as originally intended, instead of 500.
+
 Version 1.2.26 (July 11th 2021)
 
 * Mod is now compatible with the RimWorld 1.3 patch.
