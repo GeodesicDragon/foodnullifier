@@ -12,9 +12,8 @@
     <techprintCommonality>0.1</techprintCommonality>
     <techprintMarketValue>4500</techprintMarketValue>
     <heldByFactionCategoryTags>
-		<li>OutlanderCivil</li>
-		<li>OutlanderRough</li>
 		<li>Empire</li>
+		<li>Outlander</li>
 	</heldByFactionCategoryTags>
   </ResearchProjectDef>
 
@@ -25,7 +24,6 @@
 		<prerequisites>
 			<li>Bionics</li>
 		</prerequisites>
-		<!--<tab>PlayerMortarShield</tab>-->
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>

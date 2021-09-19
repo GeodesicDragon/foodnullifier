@@ -1,3 +1,12 @@
+Version 1.3.32 (September 19th 2021)
+
+* You should now be able to install a food nullifier in all animals, even those added by other mods, as long as said animal uses 'AnimalThingBase.'
+	* This patch was made possible by the XML Extensions mod, which is now required in order to use this one.
+	* Thanks to BBLKepling from the RimWorld Discord server for providing the patch I needed.
+* Intellectual skill is no longer required in order to craft nullifiers, though a crafting skill of 15 is still necessary.
+* Installed nullifiers now show hunger rate offset as -100% instead of -1000000% or whatever it was before.
+* For real this time, techprints should now be available from outlander factions (both civil and rough).
+
 Version 1.2.29 (August 21st 2021)
 
 * Techprints should now be available from outlander factions (both civil and rough).

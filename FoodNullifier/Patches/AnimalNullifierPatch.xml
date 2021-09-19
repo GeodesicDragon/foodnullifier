@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="XmlExtensions.ForEachDescendant">
+  <xpathParent>Defs/ThingDef[@Name="AnimalThingBase"]</xpathParent>
+  <concreteOnly>true</concreteOnly>
+  <storeIn>Animal_Loop</storeIn>  
+  <apply> 
+    <Operation Class="XmlExtensions.CreateVariable">
+      <storeIn>DefName_Loop</storeIn>
+      <value>{Animal_Loop}/defName</value>
+      <fromXml>true</fromXml>
+      <apply> 
+        <Operation Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="InstallAnimalFoodNullifier"]/recipeUsers</xpath>
+          <value>
+            <li>{DefName_Loop}</li>
+          </value>
+        </Operation>
+      </apply>
+    </Operation>
+  </apply>
+</Operation>
+
+</Patch>
