@@ -27,7 +27,6 @@
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
     <description>This artificial stomach is similar to a nuclear stomach in terms of functionality, but it completely eliminates hunger (rather than slowing it) and has no risk of causing cancer in the user.</description>
-    <descriptionHyperlinks><RecipeDef>InstallFoodNullifier</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
 	  <Plasteel>90</Plasteel>
