@@ -16,7 +16,7 @@
     </addedPartProps>
     <stages>
       <li>
-        <hungerRateFactorOffset>-1</hungerRateFactorOffset>
+        <hungerRateFactorOffset>-2</hungerRateFactorOffset>
       </li>
     </stages>
   </HediffDef>
