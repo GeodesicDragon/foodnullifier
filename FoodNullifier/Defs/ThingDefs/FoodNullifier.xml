@@ -6,7 +6,7 @@
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
     <labelNoun>a food nullifier</labelNoun>
-    <description>An installed food nullifier.</description>
+    <description>An installed food nullifier. While it has completely eliminated your need to eat, you are finding it hard to remain focused on other things.</description>
     <descriptionHyperlinks><ThingDef>FoodNullifier</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>FoodNullifier</spawnThingOnRemoved>
     <addedPartProps>
@@ -17,6 +17,14 @@
     <stages>
       <li>
         <hungerRateFactorOffset>-2</hungerRateFactorOffset>
+      </li>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
       </li>
     </stages>
   </HediffDef>

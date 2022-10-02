@@ -1,0 +1,88 @@
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<!--FOOD NULLIFIER CAUSES CONSCIOUSNESS LOSS-->
+		<li Class="XmlExtensions.OptionalPatch">
+			<modId>geodesicdragon.foodnullifier</modId>
+			<key>FoodNullifier_ReduceConsciousness</key>
+			<defaultValue>true</defaultValue>
+			<caseTrue>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="FoodNullifier"]/stages</xpath>
+					<value>
+						<stages>
+						  <li>
+							<hungerRateFactorOffset>-2</hungerRateFactorOffset>
+						  </li>
+						  <li>
+							<capMods>
+							  <li>
+								<capacity>Consciousness</capacity>
+								<offset>-0.1</offset>
+							  </li>
+							</capMods>
+						  </li>
+						</stages>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="FoodNullifier"]/description</xpath>
+					<value>
+						<description>An installed food nullifier. While it has completely eliminated your need to eat, you are finding it hard to remain focused on other things.</description>
+					</value>
+				</Operation>
+			</caseTrue>
+			<caseFalse>
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="FoodNullifier"]/stages</xpath>
+					<value>
+						<stages>
+						  <li>
+							<hungerRateFactorOffset>-2</hungerRateFactorOffset>
+						  </li>
+						</stages>
+					</value>
+				</Operation>
+				
+				<Operation Class="PatchOperationReplace">
+					<xpath>Defs/HediffDef[defName="FoodNullifier"]/description</xpath>
+					<value>
+						<description>An installed food nullifier.</description>
+					</value>
+				</Operation>
+			</caseFalse>
+		</li>
+		
+		<!--SETTINGS WINDOW-->
+		<li Class="XmlExtensions.CreateSettings">
+			<modId>geodesicdragon.foodnullifier</modId> <!--MUST be the same as the one entered earlier-->
+			<label>Food Nullifier</label> <!-- This is what displays as your mod's name-->
+			<settings> <!--This is where you define what settings are in the settings menu-->
+				<li Class="XmlExtensions.Setting.Text">
+					<text>IMPORTANT: You will need to restart RimWorld after changing any of these settings.</text>
+					<font>Medium</font>
+					<anchor>Middle</anchor>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap"/>
+				
+				<li Class="XmlExtensions.Setting.Checkbox">
+					<key>FoodNullifier_ReduceConsciousness</key>
+					<label>Pawn consciousness is reduced by an installed nullifier</label>
+				</li>
+				
+				<li Class="XmlExtensions.Setting.Gap">
+					<spacing>8</spacing>
+				</li>
+										
+				<li Class="XmlExtensions.Setting.GapLine"/>
+				
+				<li Class="XmlExtensions.Setting.ResetSettings"/>
+			</settings>
+		</li>
+	</operations>
+</Operation>
+
+</Patch>

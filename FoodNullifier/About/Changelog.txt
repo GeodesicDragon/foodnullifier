@@ -1,3 +1,9 @@
+Version 1.4.37 (October 2nd 2022)
+
+* Installing a nullifier now has a drawback in that it will reduce a pawn's consciousness by 10%.
+	* Enabled by default; it can be turned off by going to Options > More Mod Settings > Food Nullifier.
+	* If you can think of something other than consciousness for it to affect, please let me know.
+
 Version 1.3.37 (August 24th 2022)
 
 * Researching the nullifier no longer requires techprints.

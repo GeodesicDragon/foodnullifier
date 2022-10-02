@@ -23,6 +23,8 @@
 	</loadAfter>
 	<description><![CDATA[Adds a replacement stomach which is quite expensive and requires great skill to make, but completely removes the need for a pawn - or animal - to eat. Should work with animals added by other mods as long as they use the 'AnimalThingBase.'
 	
+Installing a nullifier will reduce a pawn's consciousness by 10%, though this can be disabled by going to Options > More Mod Settings > Food Nullifier.
+	
 <b>"THIS IS JUST A NUCLEAR STOMACH DONE DIFFERENTLY!"</b>
 
 Pawns with a nuclear stomach will still get hungry, just at a slower rate; the food nullifier eliminates hunger completely, and - as an added bonus - does not carry a risk of cancer, which makes it superior to the nuclear stomach by a substantial amount.]]></description>
