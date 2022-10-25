@@ -6,7 +6,7 @@
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
     <labelNoun>a food nullifier</labelNoun>
-    <description>An installed food nullifier. While it has completely eliminated your need to eat, you are finding it hard to remain focused on other things.</description>
+    <description>An installed food nullifier. It has completely eliminated the need to eat, but makes it hard to focus on other things.</description>
     <descriptionHyperlinks><ThingDef>FoodNullifier</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>FoodNullifier</spawnThingOnRemoved>
     <addedPartProps>
@@ -16,7 +16,7 @@
     </addedPartProps>
     <stages>
       <li>
-        <hungerRateFactorOffset>-2</hungerRateFactorOffset>
+        <hungerRateFactorOffset>-10</hungerRateFactorOffset>
       </li>
       <li>
         <capMods>
@@ -55,7 +55,7 @@
 	</statBases>
   </ThingDef>
   
-<!--This section is probably not needed now that I have the new patch which applies it to all animals, including humanlikes
+<!--This section is no longer needed now that I have the new patch which applies it to all animals, including humanlikes
 
   <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
     <defName>InstallFoodNullifier</defName>

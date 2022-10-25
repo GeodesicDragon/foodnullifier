@@ -1,3 +1,11 @@
+Version 1.4.39 (October 26th 2022)
+
+* Increased hunger rate reduction to -1000% (was -200). This should hopefully prevent the Food meter from draining, and compensate for mods, items, drugs, medical conditions and so forth which can affect a pawn's hunger rate.
+
+Version 1.4.38 (October 6th 2022)
+
+* Mod is now compatible with the RimWorld 1.4 patch.
+
 Version 1.4.37 (October 2nd 2022)
 
 * Installing a nullifier now has a drawback in that it will reduce a pawn's consciousness by 10%.
