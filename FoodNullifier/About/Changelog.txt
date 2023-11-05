@@ -1,3 +1,8 @@
+Version 1.4.41 (November 5th 2023)
+
+* Fixed the hunger rate factor not being increased properly when disabling the consciousness reduction.
+* Reduced the hunger rate factor to -5000%.
+
 Version 1.4.39 (October 26th 2022)
 
 * Increased hunger rate reduction to -1000% (was -200). This should hopefully prevent the Food meter from draining, and compensate for mods, items, drugs, medical conditions and so forth which can affect a pawn's hunger rate.
