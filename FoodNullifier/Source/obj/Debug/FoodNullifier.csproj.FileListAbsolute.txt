@@ -1,0 +1,8 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Assemblies\FoodNullifier.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\FoodNullifier\obj\Debug\FoodNullifier.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\FoodNullifier\obj\Debug\FoodNullifier.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\FoodNullifier\obj\Debug\FoodNullifier.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\Assemblies\FoodNullifier.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\obj\Debug\FoodNullifier.csproj.AssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\obj\Debug\FoodNullifier.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\FoodNullifier\Source\obj\Debug\FoodNullifier.dll

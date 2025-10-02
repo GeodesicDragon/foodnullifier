@@ -7,7 +7,10 @@
     <label>food nullifier</label>
     <labelNoun>a food nullifier</labelNoun>
     <description>An installed food nullifier.</description>
-    <descriptionHyperlinks><ThingDef>FoodNullifier</ThingDef></descriptionHyperlinks>
+	<hediffClass>HediffWithComps</hediffClass>
+    <descriptionHyperlinks>
+		<ThingDef>FoodNullifier</ThingDef>
+	</descriptionHyperlinks>
     <spawnThingOnRemoved>FoodNullifier</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
@@ -15,9 +18,6 @@
       <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
     <stages>
-      <li>
-        <hungerRateFactorOffset>-50</hungerRateFactorOffset>
-      </li>
       <li>
         <capMods>
           <li>
@@ -27,6 +27,11 @@
         </capMods>
       </li>
     </stages>
+	<comps>
+		<li Class="FoodNullifier.HediffCompProperties_NullifyHunger">
+			<tickInterval>150</tickInterval> <!--2.5 seconds (60 ticks = 1 second)-->
+		</li>
+	</comps>
   </HediffDef>
   
 <!--Food Nullifier Item-->
@@ -34,7 +39,7 @@
   <ThingDef ParentName="BodyPartBionicBase">
     <defName>FoodNullifier</defName>
     <label>food nullifier</label>
-    <description>This artificial stomach is superior to a nuclear stomach, as it completely eliminates hunger (rather than slowing it) and has no risk of causing cancer in the user, but this effect does come at the cost of reduced consciousness.</description>
+    <description>This artificial stomach constantly gives a feeling of fullness to the individual it is implanted in, preventing them from ever having to eat. The only downside is that the process has a somewhat adverse effect on conciousness.</description>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
     <costList>
 	  <Plasteel>90</Plasteel>
@@ -49,7 +54,6 @@
 		</skillRequirements>
     </recipeMaker>
 	<statBases>
-		<MarketValue>10000</MarketValue>
 		<MaxHitPoints>100</MaxHitPoints>
 		<Mass>3</Mass>
 	</statBases>

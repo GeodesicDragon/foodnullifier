@@ -1,3 +1,25 @@
+Version 2.1.3 (October 2nd 2025)
+
+* Re-added XML Extensions check to the About.xml file, as I forgot I was using a PatchOperation from it.
+
+Version 2.1.2 (October 2nd 2025)
+
+* Changing mod settings no longer requires XML Extensions.
+* Exotic goods traders now stock a single nullifier.
+* Imperial traders now stock a single nullifier.
+
+Version 2.0.0 (August 7th 2025)
+
+* Mod is now compatible with the RimWorld 1.6 patch.
+* Removed support for versions 1.0-1.4 of RimWorld.
+* The nullifier now works by refilling the hunger bar every 2.5 seconds. This amount can be adjusted in the mod options if it is affecting performance.
+* The market value of the nullifier is now calculated by the game.
+* Changed the description of the nullifier item to reflect the changes made to how it works.
+
+Version 1.4.42 (December 8th 2023)
+
+* Further reduced the hunger rate factor to -10000%. If your pawns are STILL getting hungry after this, there has to be another reason.
+
 Version 1.4.41 (November 5th 2023)
 
 * Fixed the hunger rate factor not being increased properly when disabling the consciousness reduction.
