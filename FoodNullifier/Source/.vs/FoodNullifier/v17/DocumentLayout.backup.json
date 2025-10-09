@@ -6,12 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FoodNullifier||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodnullifier\\source\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\foodnullifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:foodnullifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodnullifier\\source\\customhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:customhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodnullifier\\source\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
@@ -36,8 +40,8 @@
               "Title": "FoodNullifier",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj",
               "RelativeDocumentMoniker": "FoodNullifier.csproj",
-              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj",
-              "RelativeToolTip": "FoodNullifier.csproj",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj*",
+              "RelativeToolTip": "FoodNullifier.csproj*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-07T19:39:28.861Z",
               "EditorCaption": ""
@@ -50,9 +54,10 @@
               "RelativeDocumentMoniker": "FoodNullifier.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.cs",
               "RelativeToolTip": "FoodNullifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T19:36:13.81Z"
+              "WhenOpened": "2025-08-07T19:36:13.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,9 +67,22 @@
               "RelativeDocumentMoniker": "ModSettings.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\ModSettings.cs",
               "RelativeToolTip": "ModSettings.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwFAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswFwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T05:45:52.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomHediff.cs",
+              "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\CustomHediff.cs",
+              "RelativeDocumentMoniker": "CustomHediff.cs",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\CustomHediff.cs",
+              "RelativeToolTip": "CustomHediff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T21:43:59.357Z",
               "EditorCaption": ""
             }
           ]

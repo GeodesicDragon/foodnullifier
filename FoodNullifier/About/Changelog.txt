@@ -1,3 +1,9 @@
+Version 2.1.4 (October 9th 2025)
+
+* Removed option to set how often the nullifier updates.
+	* The setting was being ignored no matter what you set it to, so this change fixes that.
+	* It shouldn't affect performance, as the food bar is now kept full at the same frequency a pawn's mood and other needs are checked.
+
 Version 2.1.3 (October 2nd 2025)
 
 * Re-added XML Extensions check to the About.xml file, as I forgot I was using a PatchOperation from it.

@@ -1,13 +1,11 @@
 <LanguageData>
 
 	<!--CORE-->
-	<FoodNullifier_WelcomeMessage>[Food Nullifier] v{0} loaded.</FoodNullifier_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, and is obtained automatically.-->
+	<FoodNullifier_WelcomeMessage>[Food Nullifier] v{0} loaded.</FoodNullifier_WelcomeMessage><!--Shown in the log when the game loads to the main menu. {0} is the current version, which is obtained automatically.-->
 	
 	<!--MOD SETTINGS-->
 	
 	<FN_ModName>Food Nullifier</FN_ModName>
 	<FN_Consciousness>Pawn consciousness is reduced by an installed nullifier</FN_Consciousness>
-	<FN_TickRate>Pawn hunger will be refilled every {0} seconds</FN_TickRate>
-	<FN_TickRateExp>Updating more frequently may affect performance, especially in larger colonies.</FN_TickRateExp>
 	
 </LanguageData>

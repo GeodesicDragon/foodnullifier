@@ -7,7 +7,7 @@
     <label>food nullifier</label>
     <labelNoun>a food nullifier</labelNoun>
     <description>An installed food nullifier.</description>
-	<hediffClass>HediffWithComps</hediffClass>
+	<hediffClass>FoodNullifier.Hediff_NullifyHunger</hediffClass>
     <descriptionHyperlinks>
 		<ThingDef>FoodNullifier</ThingDef>
 	</descriptionHyperlinks>
@@ -27,11 +27,6 @@
         </capMods>
       </li>
     </stages>
-	<comps>
-		<li Class="FoodNullifier.HediffCompProperties_NullifyHunger">
-			<tickInterval>150</tickInterval> <!--2.5 seconds (60 ticks = 1 second)-->
-		</li>
-	</comps>
   </HediffDef>
   
 <!--Food Nullifier Item-->
