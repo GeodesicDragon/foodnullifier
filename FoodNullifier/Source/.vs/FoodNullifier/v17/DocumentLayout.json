@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FoodNullifier||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -14,7 +11,10 @@
       "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:foodnullifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|e:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\foodnullifier\\source\\customhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FoodNullifier||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\customhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0A735D-C36F-4F45-882C-20A351E0EB59}|FoodNullifier.csproj|solutionrelative:customhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,38 +36,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FoodNullifier",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj",
               "RelativeDocumentMoniker": "FoodNullifier.csproj",
-              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj*",
-              "RelativeToolTip": "FoodNullifier.csproj*",
+              "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.csproj",
+              "RelativeToolTip": "FoodNullifier.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-07T19:39:28.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FoodNullifier.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.cs",
               "RelativeDocumentMoniker": "FoodNullifier.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\FoodNullifier.cs",
               "RelativeToolTip": "FoodNullifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T19:36:13.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ModSettings.cs",
               "DocumentMoniker": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\ModSettings.cs",
               "RelativeDocumentMoniker": "ModSettings.cs",
               "ToolTip": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\FoodNullifier\\Source\\ModSettings.cs",
               "RelativeToolTip": "ModSettings.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswFwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T05:45:52.224Z",
               "EditorCaption": ""

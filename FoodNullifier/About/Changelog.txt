@@ -1,3 +1,8 @@
+Version 2.1.6 (January 12th 2026)
+
+* Fixed the consciousness reduction setting not being applied properly. It is now done via a custom PatchOperation, so you will need to restart the game if you change it, as this was the only sure way I could think of to get the setting applied properly without trying to update all your pawns at once.
+* Fixed an issue where changing mod settings from the main menu would cause the settings window to not close.
+
 Version 2.1.4 (October 9th 2025)
 
 * Removed option to set how often the nullifier updates.

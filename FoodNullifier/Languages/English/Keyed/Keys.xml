@@ -7,5 +7,6 @@
 	
 	<FN_ModName>Food Nullifier</FN_ModName>
 	<FN_Consciousness>Pawn consciousness is reduced by an installed nullifier</FN_Consciousness>
+	<FN_ChangeNeedsRestart>Changing this setting will require a restart in order to apply updated patches.</FN_ChangeNeedsRestart>
 	
 </LanguageData>

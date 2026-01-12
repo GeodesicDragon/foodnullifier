@@ -1,0 +1,7 @@
+<Patch>
+
+	<Operation Class="FoodNullifier.PatchOperationFNConsciousnessCheck">
+		<defName>FoodNullifier</defName>
+	</Operation>
+
+</Patch>
